@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color:rgb(77, 133, 197);
     overflow: hidden;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:monospace;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     background-color: rgb(126, 205, 221);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
     background-color: rgb(126, 205, 221);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 25%;
     position: absolute;
     z-index:1;
 }
