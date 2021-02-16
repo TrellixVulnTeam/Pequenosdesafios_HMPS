@@ -1,14 +1,15 @@
 body {
-    background: #eee;
-
+    background-color: #eee;
 }
 
 .toggle {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    /* Define área que terá em baixo do elemento */
 }
 
 .toggle > input {
     display: none;
+    /* especifica o tipo de caixa de renderização usada por um elemento */
 }
 
 .toggle > label {
@@ -22,8 +23,9 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.toggle > label:after {
-    position: absolute;
+
+.toggle > label::after {
+    position:absolute;
     left: 1px;
     top: 1px;
     display: block;
@@ -31,10 +33,12 @@ body {
     height: 26px;
     border-radius: 100px;
     background: #fff;
-    box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
-    content: '';
+    box-shadow: 0px 6px 6px #0000);
+    /* utilizado para adicionar efeitos de sombra em volta de um elemento */
+    content:'';
     transition: all 0.3s ease;
 }
+
 .toggle > label:active:after {
     transform: scale(1.15, 0.85);
 }
