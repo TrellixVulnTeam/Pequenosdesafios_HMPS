@@ -1,3 +1,3 @@
-# DesafioCSS
+# Desafiospessoais
 
-Esses desafios servem para melhorar minhas habilidades com CSS.
+Pequenos desafios para melhorar minha habilidades e acrescentar ao meu portfólo.
