@@ -16,9 +16,12 @@
         <h1>Calculadora</h1>
         <div class="calculadora">
             <p id="resultado"></p>
+            <!-- TABELA ONDE FORAM COLOCADAS AS TECLAS DA CALCULADORA -->
             <table>
                 <tr>
+                    <!-- TECLA C LIMPA TUDO DA TELA -->
                     <td><button class="teclas"onclick="clean()">C</button></td>
+                    <!-- TECLA < LIMPA DÍGITO POR DÍGITO -->
                     <td><button class="teclas" onclick="back()"><</button></td>
                     <td><button class="teclas" onclick="insert ('/')">/</button></td>
                     <td><button class="teclas" onclick="insert ('*')">*</button></td>
@@ -46,8 +49,9 @@
                     <td><button class="teclas" onclick="insert ('.')">.</button></td>
                 </tr>
             </table>
+            <!-- FIM DA TABELA -->
         </div>
     </div>
 </body>
-<footer><p>Feito com dedicaçao - Talita Barroso</p></footer>
+<footer class="footer"><p>Feito com dedicaçao - Talita Barroso</p></footer>
 </html>
