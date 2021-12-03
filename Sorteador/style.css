@@ -1,0 +1,36 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  height: 300px;
+  background-color: rgb(218, 208, 228);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.button {
+  width: 120px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(189, 159, 219);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
