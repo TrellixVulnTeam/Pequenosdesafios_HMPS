@@ -1,3 +1,3 @@
 # Desafiospessoais
 
-Pequenos desafios para melhorar minha habilidades e acrescentar ao meu portfólio.
+Pequenos desafios para melhorar minhas habilidades e acrescentar ao meu portfólio.
