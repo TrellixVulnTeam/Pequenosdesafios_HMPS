@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+  </head>
+  <body>
+
+    <!-- O setTimeOut executa a função uma única vez, aqui ele vai apenas mudar a cor do novo título depois de 2 segundos -->
+    <h1>Título</h1>
+    <button onclick="mudarTitulo()">Mudar</button>
+
+    <script>
+      function mudarCor() {
+        let h = document.getElementsByTagName("h1")[0];
+        h.style.color = "red";
+      }
+
+      function mudarTitulo() {
+        let h = document.getElementsByTagName("h1")[0];
+        h.innerHTML = "Novo Título";
+
+        // O tempo de delay é em milisegundos, por isso que para 2s se coloca 2000
+        setTimeout(mudarCor, 2000);
+      }
+    </script>
+  </body>
+</html>

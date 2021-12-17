@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interval</title>
+  </head>
+  <body>
+    <!-- O setInterval vai executar a função de tempo em tempo, aqui ele vai atualizar os números a cada 1s -->
+    <h1>Título</h1>
+    <button onclick="atualizar()">Iniciar</button>
+
+    <script>
+      var numero = 0;
+
+      function iniciar() {
+        let h = document.getElementsByTagName("h1")[0];
+        h.innerHTML = numero;
+        numero++;
+      }
+
+      function atualizar() {
+        setInterval(iniciar, 1000);
+      }
+    </script>
+  </body>
+</html>
